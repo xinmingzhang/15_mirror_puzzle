@@ -605,7 +605,7 @@ class Game(Screen):
 
         l1 = [i for i in range(15)]
         l2 = self.puzzle_init()
-
+        self.situation = [15 for x in range(16)]
         for i1, i2 in zip(l1, l2):
             self.situation[i2] = i1
             a = random.choice(self.scope)
@@ -617,6 +617,8 @@ class Game(Screen):
                 self.area3.add_widget(NumberBlock(i1, i2))
             elif a == 4:
                 self.area4.add_widget(NumberBlock(i1, i2))
+
+
 
 
 
