@@ -1,16 +1,15 @@
-# 15 MIRROR SLIDE PUZZLE
+# 15 MIRROR PUZZLE
 
-Well, I finished this game during a weekend. When I finish it, I find it is SUPER HARD! I would spend nearly an hour to get the solution. I want to make it easier, but I have no ideas and no time. And I do not package it for android, I found it crashed in kivy laucher :)
-
-Anyhow, I think this game idea is special, so just show it, maybe when I have time, I would do it better! And if you want to test your IQ, just try it :)
-
+Well, I finally packaged my app into android apk file. Add the 'normal','nightmare','hell' modes, which may bring several fun. For me, the nightmare mode is really a nightmare :) Hope you can enjoy it!
 
 ## How to play
+download the .apk file from bin folder,then install it on android device
 tap the block to move, notice only the available block can move :)
+to run it from source, need python3 and kivy, just run the main.py
+
 
 ## Screenshot
 ![screenshot1](https://github.com/xinmingzhang/15_mirror_slide_puzzle/blob/master/screenshot_1.png)
 ![screenshot2](https://github.com/xinmingzhang/15_mirror_slide_puzzle/blob/master/screenshot_2.png)
-  
 
 
